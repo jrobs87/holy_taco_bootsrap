@@ -1,0 +1,156 @@
+@font-face {
+    font-family: kust;
+    src: url("kust.otf");
+}
+
+* {
+    font-family: 'avenir';
+   
+}
+
+.jumbotron {
+    background-image: url(door.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;;
+    padding-top: 90px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: orange;
+}
+
+#navy {
+    z-index: 1000;
+    font-size: 1.4em;
+    background-color: black;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+}
+
+#logocontainer {
+    min-height: 500px;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    text-align: center;
+    font-size: 6em;
+    width: 100%;
+    margin: auto;
+}
+
+hr {
+    color: black;
+}
+
+#about, #address {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#spacer {
+    height: 7000px;
+}
+
+/* menu tabs */
+
+.container{
+            max-width: 1000px;
+            font-size: 1.2em;
+			width: 90%;
+            padding-top: 10%;
+			margin: 0 auto;
+		}
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+            font-size: 1.0em;
+			background-color: white;
+			color: black;
+			display: inline-block;
+			padding: 10px 10px;
+			cursor: pointer;
+		}
+
+ul.tabs li:hover {
+   /*
+    cursor: pointer; */
+    color: #131315;
+    transition: background-color 0.1s ease-in,
+                color 0.0s ease-out;
+            
+}
+
+.tab-link {
+    border-radius: 5px;
+    transition: background 0.5s ease-out;
+    transition: color 0.5s ease-out;
+            
+}
+
+		ul.tabs li.current{
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+			background-color: white;
+			color: #B24333;
+		}
+
+		.tab-content{
+            font-family: 'avenir' !important;
+            margin-top: -5px;
+            border-radius: 5px;
+			display: none;
+			background-color: white;
+			padding: 15px;
+            box-shadow: 2px 2px 2px darkgrey;
+            margin-bottom: 20px;
+            font-size: 0.8em;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+.menurow {
+    color: black;
+}
+
+.menurow td {
+    vertical-align: baseline;
+    width: 100%;
+}
+
+th {
+    color: #829f42;
+    font-size: 1.4em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.menunotes {
+    text-align: center;
+    color: orangered;
+    font-size: 0.8em;
+}
+
+/* end menu formatting */
